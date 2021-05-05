@@ -1,0 +1,57 @@
+.jumbotron
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(49, 49, 243);
+    color: #000;
+    font-size: 30px;
+   border-top-right-radius: 25px;
+   border-top-left-radius: 25px;
+
+}
+*
+{
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.form
+{
+    border: 4px rgb(236, 27, 27) solid;
+    height: 460px;
+}
+select,input
+{
+    margin-bottom: 2%;
+    width: 100%;
+    height: 50px;
+    outline: 0;
+    border: 3px rgb(236, 27, 27) solid;
+}
+.finded-articles
+{
+    height: 300px;
+    border: 4px solid green;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+}
+button
+{
+    border: 2px #012300 solid;
+    color: #fff;
+    background-color:#000;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color:#454889;
+    color: #fff;
+}
+button:active
+{
+    background-color:#655461;
+    color: #000;
+}
